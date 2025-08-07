@@ -1,0 +1,16 @@
+/* Gaya kustom halaman login */
+.filament-login-page {
+    background-image: linear-gradient(to bottom right, #f5f7fa, #e4e8f0);
+}
+
+.filament-login-page .filament-brand {
+    margin-bottom: 2rem;
+}
+
+.filament-login-page .filament-form {
+    @apply shadow-lg rounded-2xl;
+}
+
+.filament-login-page .filament-button {
+    @apply transition-all duration-200;
+}
